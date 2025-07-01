@@ -17,7 +17,7 @@ import Footer from "./sections/Footer";
 
 export default function Home() {
   return (
-    <Box sx={{ backgroundColor: "#000", overflowX: "hidden" }}>
+    <Box sx={{ overflowX: "hidden" }}>
       {/* Navbar positioned absolutely/fixed to overlay on Landing */}
       <Box
         sx={{
@@ -35,40 +35,39 @@ export default function Home() {
       <Box>
         <Landing />
       </Box>
-
-      <Box sx={{ py: 8 }}>
+      <Box sx={{ py: 2 }}>
         <Content />
       </Box>
 
-      <Box sx={{ py: 8 }}>
+      <Box sx={{ py: 2 }}>
         <Features />
       </Box>
 
-      <Box sx={{ py: 8 }}>
+      <Box sx={{ py: 2 }}>
         <Form />
       </Box>
 
-      <Box sx={{ py: 8 }}>
+      <Box sx={{ py: 2 }}>
         <Testimonials />
       </Box>
 
-      <Box sx={{ py: 8 }}>
+      <Box sx={{ py: 2 }}>
         <CallToAction />
       </Box>
 
-      <Box sx={{ py: 8 }}>
+      <Box sx={{ py: 2 }}>
         <ShowCase />
       </Box>
 
-      <Box sx={{ py: 8 }}>
+      <Box sx={{ py: 2 }}>
         <Team />
       </Box>
 
-      <Box sx={{ py: 8 }}>
+      <Box sx={{ py: 2 }}>
         <Contact />
       </Box>
 
-      <Box sx={{ py: 8 }}>
+      <Box sx={{ py: 2 }}>
         <Pricing />
       </Box>
 
